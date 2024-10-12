@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 10px;
+  .block {
+    .title {
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+    .filter-container {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}

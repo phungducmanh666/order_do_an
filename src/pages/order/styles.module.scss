@@ -1,0 +1,15 @@
+@import "/src/styles/common";
+
+.card {
+  padding: 5px;
+  display: inline-block;
+  > div {
+    box-shadow: 1px 1px 3px $blur-color;
+  }
+}
+
+.container {
+  .filter {
+    margin-bottom: 20px;
+  }
+}

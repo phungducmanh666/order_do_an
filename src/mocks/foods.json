@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/items/VNITE20240531170536026846/detail/52f1d3e3__7dfb37814a.webp",
+    "foodName": "Pizza Tôm Xốt Tỏi Cay",
+    "originalPrice": 274320,
+    "discountType": 1,
+    "discountValue": 20,
+    "quantity": 10
+  },
+  {
+    "id": 2,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/items/VNITE20240531170536015963/detail/64cb3368_2_3530429544.webp",
+    "foodName": "Mỳ Ý Arrabbiata với phô mai Mascarpone Mỳ Ý Arrabbiata với phô mai Mascarpone Mỳ Ý Arrabbiata với phô mai Mascarpone Mỳ Ý Arrabbiata với phô mai Mascarpone",
+    "originalPrice": 178200,
+    "discountType": 1,
+    "discountValue": 20,
+    "quantity": 5
+  },
+  {
+    "id": 3,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C6EZEJ3TTLCUV6/list/64ae2ffb4b0343de91fed8c5ea88ac1e_1713283578918592261.webp",
+    "foodName": "Pizza Lovers Hang Ga",
+    "originalPrice": 38000,
+    "discountType": 1,
+    "discountValue": 20,
+    "quantity": 7
+  },
+  {
+    "id": 4,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C6MUTEKTPGAKVA/list/46a36a7aa7b3449784eb3329babaeaad_1717383757335841418.webp",
+    "foodName": "Pizza Pomodoro Số 7 Hàng Buồm",
+    "originalPrice": 80000,
+    "discountType": 2,
+    "discountValue": 10000,
+    "quantity": 0
+  },
+  {
+    "id": 5,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C2VGGXBZWGEXCA/list/0030322b61204e2eb1a9d5ecd3ab233a_1717346879495714553.webp",
+    "foodName": "The Pizza Company - Đoàn Trần Nghiệp",
+    "originalPrice": 115000,
+    "discountType": 0,
+    "discountValue": 0,
+    "quantity": 0
+  },
+  {
+    "id": 6,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C6MUTEKTPGAKVA/list/46a36a7aa7b3449784eb3329babaeaad_1717383757335841418.webp",
+    "foodName": "Pizza Pomodoro Số 7 Hàng Buồm",
+    "originalPrice": 80000,
+    "discountType": 2,
+    "discountValue": 10000,
+    "quantity": 30
+  },
+  {
+    "id": 7,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C6MUTEKTPGAKVA/list/46a36a7aa7b3449784eb3329babaeaad_1717383757335841418.webp",
+    "foodName": "Pizza Pomodoro Số 7 Hàng Buồm",
+    "originalPrice": 80000,
+    "discountType": 2,
+    "discountValue": 10000,
+    "quantity": -1
+  },
+  {
+    "id": 8,
+    "photoURL": "https://food-cms.grab.com/compressed_webp/merchants/5-C6MUTEKTPGAKVA/list/46a36a7aa7b3449784eb3329babaeaad_1717383757335841418.webp",
+    "foodName": "Pizza Pomodoro Số 7 Hàng Buồm",
+    "originalPrice": 80000,
+    "discountType": 2,
+    "discountValue": 10000,
+    "quantity": 30
+  }
+]

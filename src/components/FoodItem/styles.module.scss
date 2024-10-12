@@ -1,0 +1,57 @@
+@import "/src/styles/common";
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    .photo {
+      width: 20%;
+    }
+    .text-info {
+      .food-name {
+        font-weight: 600;
+        @include limit-text-line(2, 1.5em);
+      }
+    }
+  }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    > * {
+      width: 100%;
+    }
+  }
+}
+
+.price-com {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .price {
+    order: 1;
+  }
+  .original-price {
+    order: 0;
+    font-size: 0.8rem;
+    background-color: $secondary-color;
+    padding: 1px 3px;
+    border-radius: $border-radius-1;
+    &.disabled {
+      text-decoration: line-through;
+    }
+  }
+}

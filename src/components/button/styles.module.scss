@@ -1,0 +1,40 @@
+@import "/src/styles/common";
+
+.wrapper {
+  padding: 7px 15px;
+  outline: none;
+  border: none;
+  border-radius: $border-radius-1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+
+  &.primary {
+    background-color: $primary-color;
+    color: $light-color;
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+    color: $light-color;
+  }
+
+  &.danger {
+    background-color: $danger-color;
+    color: $light-color;
+  }
+
+  &.tertiary {
+    background-color: $tertiary-color;
+    color: $light-color;
+  }
+
+  &.danger-outlet {
+    border: 1px solid $danger-color;
+    background-color: $light-color;
+    color: $dark-color;
+  }
+}

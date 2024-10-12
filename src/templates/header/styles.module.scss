@@ -1,0 +1,31 @@
+@import "/src/styles/common";
+
+.wrapper {
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 1px 0px 3px $blur-color;
+  .menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+    .menu-item {
+      padding: 5px 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      &.active {
+        background-color: $primary-color;
+        color: $light-color;
+      }
+    }
+  }
+}

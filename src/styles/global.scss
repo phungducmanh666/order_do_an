@@ -1,0 +1,11 @@
+@import "/src/styles/common";
+
+@each $breakpoint, $condition in $screen-sizes {
+  @media all and (#{$condition}) {
+    @each $col, $width in $grid-widths {
+      .#{$breakpoint}-col-#{$col} {
+        width: $width;
+      }
+    }
+  }
+}

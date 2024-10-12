@@ -1,0 +1,89 @@
+@import "/src/styles/common";
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: $border-radius-1;
+  display: inline-block;
+  .photo {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .discount-com {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: rgba($color: $secondary-color, $alpha: 0.9);
+      padding: 2px 5px;
+      color: $light-color;
+      border-top-left-radius: $border-radius-1;
+      border-bottom-right-radius: $border-radius-1;
+      .label {
+        font-weight: 600;
+        font-size: 1rem;
+      }
+      .discount {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .info {
+    padding: 10px;
+    .name {
+      font-weight: 600;
+      @include limit-text-line(2, 1.5em);
+    }
+    .price-com {
+      margin-top: 10px;
+      height: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      .price {
+        height: 1em;
+        order: 1;
+      }
+      .original-price {
+        height: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 1.2em;
+        line-height: 1.2em;
+        order: 0;
+        font-size: 0.7rem;
+        &.disabled {
+          text-decoration: line-through;
+          background-color: $danger-color;
+          padding: 2px 5px;
+          border-radius: $border-radius-1;
+          color: $light-color;
+        }
+      }
+    }
+    .quantity-com {
+      font-size: 0.9em;
+      display: inline-block;
+      margin-top: 20px;
+      font-weight: 600;
+
+      height: 0.9em;
+      line-height: 0.9em;
+
+      .quantity {
+        font-weight: normal;
+      }
+    }
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
